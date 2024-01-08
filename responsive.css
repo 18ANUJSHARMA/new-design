@@ -1,0 +1,11 @@
+@media(max-width:1170px){
+    .section-subtitle{
+        max-width: 60%;
+    }
+
+    .header .navbar{
+        background-size: cover;
+        padding: 2rem;
+    }
+
+}

@@ -1,0 +1,122 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  background-color: #000d3f;
+  overflow-x: hidden;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav img{
+  width: 70px;
+  height: 70px;
+  margin: 60px;
+}
+
+.nav ul{
+  margin: 60px 60px;
+  list-style: none;
+  display: flex;
+  justify-content:right;
+  align-items: center;
+}
+
+.nav ul li{
+   height: 50px;
+   justify-content: space-between;
+}
+
+.nav ul li a{
+  height: 100%;
+  padding: 0 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover{
+  background-color: #392d2d;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.left{
+  
+  margin-left: 60px;
+}
+
+.head{
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+  
+}
+
+.head h3 {
+  margin-right: 10px;
+  color: white;
+}
+.head svg{
+  margin: 0 10px;
+  color: aqua;
+}
+
+.second-head{
+  color: white;
+  margin: 15px 0;
+}
+
+.second-head h1{
+  font-size: 50px;
+  margin: 15px 0;
+}
+
+.second-head p{
+  margin-right: 10px;
+}
+
+.third-head{
+  color: white;
+}
+
+.third-head h2 b{
+  font-size: 50px;
+}
+.third-head h2{
+  font-size: 40px;
+}
+
+.third-head p{
+  color: rgb(110, 165, 242);
+}
+
+.forth-head img{
+  width: 600px;
+  height: 400px;
+  margin-left: -15px;
+}
+
+
+/* .right{
+  
+} */
+.right img{
+  position: relative;
+  left: -350px;
+  width: 1200px;
+  height: 664px;
+  filter: drop-shadow(25px 25px 50px red);
+}
